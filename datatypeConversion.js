@@ -22,12 +22,15 @@ let newSrting = "    tapas    "
 
 let anotherString = newSrting.trim().toLocaleUpperCase(); // "TAPAS" - converts to uppercase after trimming
 
-console.log(anotherString); // "TAPAS"
+// console.log(anotherString); // "TAPAS"
 
-console.log(anotherString.replace('T', 'A')); // "AAPAS"
-console.log(anotherString.includes("APAS")); // true - checks if the string contains "APAS"
-console.log(anotherString.includes("apas")); // false - checks if the string contains "apas" , case-sensitive
+// console.log(anotherString.replace('T', 'A')); // "AAPAS"
+// console.log(anotherString.includes("APAS")); // true - checks if the string contains "APAS"
+// console.log(anotherString.includes("apas")); // false - checks if the string contains "apas" , case-sensitive
 
-console.log(anotherString.startsWith("T")); // true - checks if the string starts with "T", case-sensitive
-console.log(anotherString.endsWith("S")); // true - checks if the string ends with "S" ,case-sensitive
+// console.log(anotherString.startsWith("T")); // true - checks if the string starts with "T", case-sensitive
+// console.log(anotherString.endsWith("S")); // true - checks if the string ends with "S" ,case-sensitive
 
+const name= 'techtuitions'
+//console.log(typeof name);
+console.log(name.toLocaleUpperCase().replace('T', 'A')); // "Aechuions" - replaces 'T' with 'A' after converting to uppercase
